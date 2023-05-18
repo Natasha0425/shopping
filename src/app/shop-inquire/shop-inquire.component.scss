@@ -1,0 +1,24 @@
+:host ::ng-deep {
+  //Basic Layout Color
+  --white: #ffffff;
+  --black: #000000;
+  --green: #D5E8D4;
+  --yellow: #FFF2CC;
+  --orange: #F39C12;
+
+  //Basic Layout Style
+  --basic-font-size: 1.5rem;
+
+  .p-toolbar{
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+
+    & .p-button{
+      padding: 5px;
+      background-color: white;
+      border-color: white;
+      margin-left: 10px;
+      color: black;
+    }
+  }
+}

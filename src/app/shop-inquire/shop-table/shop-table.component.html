@@ -1,0 +1,30 @@
+<p-table [columns]="cols" [value]="dataService.product" [scrollable]="true" scrollHeight="450px">
+  <ng-template pTemplate="header" let-columns>
+      <tr>
+          <th [style]="{'max-width':'80px'}">編號</th>
+          <th [style]="{'min-width':'400px'}">商品名稱</th>
+          <th >數量</th>
+          <th >售價</th>
+          <th >合計</th>
+          <th >備註</th>
+          <th >狀態</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-columns let-rowIndex="rowIndex">
+      <tr>
+        <td [style]="{'max-width':'80px'}">{{ rowIndex + 1 }}</td>
+        <td [style]="{'min-width':'400px'}">{{ columns.name }}</td>
+        <td>{{ columns.count }}</td>
+        <td>{{ columns.price }}</td>
+        <td>{{ columns.total }}</td>
+        <td>{{ columns.remark }}</td>
+        <td>{{ columns.state }}</td>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="footer">
+    <tr>
+      <td colspan="7">總金額：{{ dataService.totalProduct }}</td>
+    </tr>
+  </ng-template>
+</p-table>
+

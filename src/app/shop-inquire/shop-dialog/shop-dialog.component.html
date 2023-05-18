@@ -1,0 +1,17 @@
+<p-dialog header="輸入查詢資料" [(visible)]="dataService.isDialogVisibled" [modal]="true" [style]="{height: '250px'}" (onClose)="onClose()">
+  <ng-template pTemplate="content">
+    <div>
+      <label>顧客姓名：</label>
+      <input type="text" pInputText [(ngModel)]="dataService.tName" />
+    </div>
+    <div>
+      <label>電話號碼：</label>
+      <input type="text" pInputText pKeyFilter="num" [(ngModel)]="dataService.tNumber" />
+    </div>
+  </ng-template>
+
+  <ng-template pTemplate="footer">
+    <p-button label="查詢" (click)="onSearchClick()"></p-button>
+  </ng-template>
+
+</p-dialog>

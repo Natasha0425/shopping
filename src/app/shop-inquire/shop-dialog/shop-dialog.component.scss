@@ -1,0 +1,14 @@
+:host ::ng-deep {
+
+  & .p-dialog{
+
+    & .p-dialog-footer{
+      & .p-button{
+        padding: 5px;
+        background-color: var(--orange);
+        border-color: var(--orange);
+        color: black;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<!--工具列-->
+<p-toolbar>
+  <div class="p-toolbar-group-left">
+    <label>訂購人：{{ dataService.tName }}</label>
+    <label [style]="{'margin-left':'10px'}">訂單狀態：{{ state }}</label>
+  </div>
+
+  <div class="p-toolbar-group-right">
+      <p-button label="查詢" (click)="onSearchClick()"></p-button>
+      <p-button label="已到貨" (click)="onArrivalClick()"></p-button>
+      <p-button label="未到貨" (click)="onUnArrivalClick()"></p-button>
+      <p-button label="全部" (click)="onArrivalTotal()"></p-button>
+  </div>
+</p-toolbar>
+
+<div [style]="{'margin-top':'10px', 'width':'100%'}">
+  <app-shop-table></app-shop-table>
+</div>
+
+<!--查詢頁面對話框-->
+<app-shop-dialog></app-shop-dialog>

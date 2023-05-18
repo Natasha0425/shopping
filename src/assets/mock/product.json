@@ -1,0 +1,74 @@
+[
+  {
+    "customer":"洪淑美",
+    "name":"玻璃保護貼",
+    "count":"2",
+    "price":"120",
+    "total":240,
+    "remark":"i8",
+    "state":"已到貨"
+  },
+  {
+    "customer":"洪銘謙",
+    "name":"特大巨無霸蜜黑棗180g",
+    "count":"1",
+    "price":"100",
+    "total":100,
+    "remark":" ",
+    "state":"未到貨"
+  },
+  {
+    "customer":"洪淑美",
+    "name":"沖繩日式梅精糖",
+    "count":"2",
+    "price":"99",
+    "total":198,
+    "remark":" ",
+    "state":"未到貨"
+  },
+  {
+    "customer":"洪淑美",
+    "name":"闆娘真真健康推薦 黃金蟲草菇菇包",
+    "count":"1",
+    "price":"59",
+    "total":59,
+    "remark":" ",
+    "state":"未到貨"
+  },
+  {
+    "customer":"洪銘謙",
+    "name":"艾草檀香沐浴露(胖胖瓶)2000ml",
+    "count":"1",
+    "price":"390",
+    "total":390,
+    "remark":" ",
+    "state":"已到貨"
+  },
+  {
+    "customer":"洪銘謙",
+    "name":"櫻花牌抽油煙機濾網三合一(一組兩套)",
+    "count":"1",
+    "price":"299",
+    "total":299,
+    "remark":" ",
+    "state":"已到貨"
+  },
+  {
+    "customer":"洪淑美",
+    "name":"AIWA愛華 10W LED燈泡",
+    "count":"1",
+    "price":"359",
+    "total":359,
+    "remark":"白光",
+    "state":"未到貨"
+  },
+  {
+    "customer":"洪銘謙",
+    "name":"荷康 醫用4D立體口罩(25入單色/盒)",
+    "count":"1",
+    "price":"250",
+    "total":250,
+    "remark":"白色",
+    "state":"已到貨"
+  }
+]
